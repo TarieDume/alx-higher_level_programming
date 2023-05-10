@@ -1,4 +1,4 @@
-#!/usr/bin/pyhton3
+#!/usr/bin/python3
 import random
 number = random.randint(-10, 10)
 if number > 0:
@@ -6,4 +6,4 @@ if number > 0:
 elif number == 0:
     print("{:d} is zero".format(number))
 else:
-    print("{:d} is nagetive".format(number))
+    print("{:d} is negative".format(number))
